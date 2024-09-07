@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jupyter:
+    image: quay.io/jupyter/pyspark-notebook
+    container_name: pyspark-notebook  # Đặt tên container (tùy chọn)
+    ports:
+      - 8888:8888
+      - 4040:4040
+      - 4041:4041
+    volumes:
+      - ./work:/home/jovyan/work  # Thay thế "your_local_folder" bằng đường dẫn thư mục trên máy chủ của bạn
