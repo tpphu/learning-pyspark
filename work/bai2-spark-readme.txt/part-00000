@@ -1,0 +1,6 @@
+<http://spark.apache.org/>
+guide, on the [project web page](http://spark.apache.org/documentation.html).
+["Building Spark"](http://spark.apache.org/docs/latest/building-spark.html).
+For general development tips, including info on developing Spark using an IDE, see ["Useful Developer Tools"](http://spark.apache.org/developer-tools.html).
+    ./bin/spark-shell
+    ./bin/pyspark

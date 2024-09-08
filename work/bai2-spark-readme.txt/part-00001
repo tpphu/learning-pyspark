@@ -1,0 +1,7 @@
+examples to a cluster. This can be a mesos:// or spark:// URL,
+    MASTER=spark://host:7077 ./bin/run-example SparkPi
+Testing first requires [building Spark](#building-spark). Once Spark is built, tests
+[run tests for a module, or individual tests](http://spark.apache.org/developer-tools.html#individual-tests).
+["Specifying the Hadoop Version and Enabling YARN"](http://spark.apache.org/docs/latest/building-spark.html#specifying-the-hadoop-version-and-enabling-yarn)
+Please refer to the [Configuration Guide](http://spark.apache.org/docs/latest/configuration.html)
+Please review the [Contribution to Spark guide](http://spark.apache.org/contributing.html)
